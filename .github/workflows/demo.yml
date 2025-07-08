@@ -1,6 +1,13 @@
-name: Demo Action
+name: Hello GitHub Actions
 
-on: 
-  
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a greeting
+        run: echo "Hello, GitHub Actions!"
