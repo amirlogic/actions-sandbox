@@ -32,3 +32,7 @@ jobs:
     path: dist/*
 ```
 
+
+## Links
+
+Run GitHUb Actions locally: https://github.com/nektos/act
