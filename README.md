@@ -26,9 +26,9 @@ jobs:
 
 ```
 - name: Upload ...
-        uses: actions/upload-artifact@v4
-        with:
-          name: executable
-          path: dist/*
+  uses: actions/upload-artifact@v4
+  with:
+    name: executable
+    path: dist/*
 ```
 
