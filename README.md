@@ -20,3 +20,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 ```
+
+
+## Upload artifact
+
+```
+- name: Upload ...
+        uses: actions/upload-artifact@v4
+        with:
+          name: executable
+          path: dist/*
+```
+
